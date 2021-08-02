@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DSPIC33FJ128MC802-I_SP
+D 16-Bit Digital Signal Controllers
+K
+F https://www.mouser.in/datasheet/2/268/70291G-254604.pdf
+$ENDCMP
+#
+#End Doc Library

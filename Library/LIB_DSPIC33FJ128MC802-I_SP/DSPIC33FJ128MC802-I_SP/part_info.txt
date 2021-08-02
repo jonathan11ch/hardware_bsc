@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=DSPIC33FJ128MC802-I/SP
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=28
+Version=3.2
+Released=2017-01-11 17:13:05
+Downloaded=2021-07-31 03:02:17
+3D=Y

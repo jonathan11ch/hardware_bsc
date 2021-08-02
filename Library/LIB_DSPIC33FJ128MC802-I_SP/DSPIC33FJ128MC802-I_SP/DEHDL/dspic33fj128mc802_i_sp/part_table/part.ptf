@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DSPIC33FJ128MC802_I_SP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "DSPIC33FJ128MC802-I/SP" (!) = "", "DIP794W56P254L3486H508Q28N", "Dual-In-Line Packages", "579-DSPIC128MC802ISP", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/dsPIC33FJ128MC802-I-SP?qs=nMCt4TBfEwoy3BuZFW%2F8pw%3D%3D", "DSPIC33FJ128MC802-I/SP", "https://www.arrow.com/en/products/dspic33fj128mc802-isp/microchip-technology", "16-Bit Digital Signal Controllers", "https://www.mouser.in/datasheet/2/268/70291G-254604.pdf", "5.08 mm"
+END_PART
+
+END.

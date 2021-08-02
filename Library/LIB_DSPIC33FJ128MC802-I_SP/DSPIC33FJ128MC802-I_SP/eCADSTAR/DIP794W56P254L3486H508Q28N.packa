@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DSPIC33FJ128MC802-I_SP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "DIP794W56P254L3486H508Q28N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MIC5219-3.3YMM U1
+U 1 1 61089579
+P 2550 1550
+F 0 "U1" H 2550 1892 50  0000 C CNN
+F 1 "MIC5219-3.3YMM" H 2550 1801 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2550 1875 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 2550 1550 50  0001 C CNN
+	1    2550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61089EE6
+P 2550 2050
+F 0 "#PWR0101" H 2550 1800 50  0001 C CNN
+F 1 "GND" H 2555 1877 50  0000 C CNN
+F 2 "" H 2550 2050 50  0001 C CNN
+F 3 "" H 2550 2050 50  0001 C CNN
+	1    2550 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1850 2550 2000
+Wire Wire Line
+	1750 2000 2550 2000
+Connection ~ 2550 2000
+Wire Wire Line
+	2550 2000 2550 2050
+$Comp
+L Device:C C?
+U 1 1 61092BCB
+P 1750 1850
+F 0 "C?" H 1865 1896 50  0000 L CNN
+F 1 "C" H 1865 1805 50  0000 L CNN
+F 2 "" H 1788 1700 50  0001 C CNN
+F 3 "~" H 1750 1850 50  0001 C CNN
+	1    1750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1550 2250 1700
+Wire Wire Line
+	2250 1700 1750 1700
+$EndSCHEMATC

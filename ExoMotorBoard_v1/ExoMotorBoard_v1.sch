@@ -1,79 +1,317 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Main ExoMotorBoard Sheet"
 Date ""
 Rev ""
-Comp ""
+Comp "Syracuse University"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:MIC5219-3.3YMM U1
-U 1 1 61089579
-P 2550 1550
-F 0 "U1" H 2550 1892 50  0000 C CNN
-F 1 "MIC5219-3.3YMM" H 2550 1801 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2550 1875 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 2550 1550 50  0001 C CNN
-	1    2550 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 61089EE6
-P 2550 2050
-F 0 "#PWR0101" H 2550 1800 50  0001 C CNN
-F 1 "GND" H 2555 1877 50  0000 C CNN
-F 2 "" H 2550 2050 50  0001 C CNN
-F 3 "" H 2550 2050 50  0001 C CNN
-	1    2550 2050
+P 1850 1950
+F 0 "#PWR0101" H 1850 1700 50  0001 C CNN
+F 1 "GND" H 1855 1777 50  0000 C CNN
+F 2 "" H 1850 1950 50  0001 C CNN
+F 3 "" H 1850 1950 50  0001 C CNN
+	1    1850 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 1850 2550 2000
-Wire Wire Line
-	1750 2000 2550 2000
-Connection ~ 2550 2000
-Wire Wire Line
-	2550 2000 2550 2050
 $Comp
 L Device:C C1
 U 1 1 61092BCB
-P 1750 1850
-F 0 "C1" H 1865 1896 50  0000 L CNN
-F 1 "C" H 1865 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 1788 1700 50  0001 C CNN
-F 3 "~" H 1750 1850 50  0001 C CNN
-	1    1750 1850
+P 2350 1600
+F 0 "C1" H 2465 1646 50  0000 L CNN
+F 1 "1uF" H 2465 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2388 1450 50  0001 C CNN
+F 3 "~" H 2350 1600 50  0001 C CNN
+	1    2350 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2250 1550 2250 1700
-Wire Wire Line
-	2250 1700 1750 1700
 $Comp
 L DSPIC33FJ128MC802-I_SP:DSPIC33FJ128MC802-I_SP IC1
 U 1 1 61093E82
-P 6200 1200
-F 0 "IC1" H 8350 1465 50  0000 C CNN
-F 1 "DSPIC33FJ128MC802-I_SP" H 8350 1374 50  0000 C CNN
-F 2 "DSPIC33FJ128MC802-I_SP:DIP794W56P254L3486H508Q28N" H 10350 1300 50  0001 L CNN
-F 3 "https://www.mouser.in/datasheet/2/268/70291G-254604.pdf" H 10350 1200 50  0001 L CNN
-F 4 "16-Bit Digital Signal Controllers" H 10350 1100 50  0001 L CNN "Description"
-F 5 "5.08" H 10350 1000 50  0001 L CNN "Height"
-F 6 "Microchip" H 10350 900 50  0001 L CNN "Manufacturer_Name"
-F 7 "DSPIC33FJ128MC802-I/SP" H 10350 800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "579-DSPIC128MC802ISP" H 10350 700 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/dsPIC33FJ128MC802-I-SP?qs=nMCt4TBfEwoy3BuZFW%2F8pw%3D%3D" H 10350 600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "DSPIC33FJ128MC802-I/SP" H 10350 500 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/dspic33fj128mc802-isp/microchip-technology" H 10350 400 50  0001 L CNN "Arrow Price/Stock"
-	1    6200 1200
+P 3450 3550
+F 0 "IC1" H 5600 3815 50  0000 C CNN
+F 1 "DSPIC33FJ128MC802-I_SP" H 5600 3724 50  0000 C CNN
+F 2 "DSPIC33FJ128MC802-I_SP:DIP794W56P254L3486H508Q28N" H 7600 3650 50  0001 L CNN
+F 3 "https://www.mouser.in/datasheet/2/268/70291G-254604.pdf" H 7600 3550 50  0001 L CNN
+F 4 "16-Bit Digital Signal Controllers" H 7600 3450 50  0001 L CNN "Description"
+F 5 "5.08" H 7600 3350 50  0001 L CNN "Height"
+F 6 "Microchip" H 7600 3250 50  0001 L CNN "Manufacturer_Name"
+F 7 "DSPIC33FJ128MC802-I/SP" H 7600 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "579-DSPIC128MC802ISP" H 7600 3050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/dsPIC33FJ128MC802-I-SP?qs=nMCt4TBfEwoy3BuZFW%2F8pw%3D%3D" H 7600 2950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "DSPIC33FJ128MC802-I/SP" H 7600 2850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/dspic33fj128mc802-isp/microchip-technology" H 7600 2750 50  0001 L CNN "Arrow Price/Stock"
+	1    3450 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1850 2000 1850 1950
+$Comp
+L Regulator_Linear:MIC5219-3.3YMM U1
+U 1 1 61089579
+P 1850 1400
+F 0 "U1" H 1850 1850 50  0000 C CNN
+F 1 "MIC5219-3.3YMM" H 1850 1750 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1850 1725 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 1850 1400 50  0001 C CNN
+F 4 "998-MIC5219-3.3YMM" H 1850 1650 50  0000 C CNN "Mouser"
+	1    1850 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1950
+Wire Wire Line
+	1850 1700 1850 1850
+Wire Wire Line
+	2150 1300 2350 1300
+Wire Wire Line
+	2350 1300 2350 1450
+Wire Wire Line
+	1550 1400 1350 1400
+Wire Wire Line
+	1350 1400 1350 1300
+Connection ~ 1350 1300
+Wire Wire Line
+	1350 1300 1550 1300
+Wire Wire Line
+	2350 1750 2350 1850
+Wire Wire Line
+	2350 1850 1850 1850
+Connection ~ 1850 1850
+Wire Wire Line
+	1850 1850 1850 1950
+Text GLabel 1200 1300 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	1200 1300 1350 1300
+NoConn ~ 2150 1400
+$Comp
+L power:+3.3V #PWR01
+U 1 1 610C2390
+P 2350 1100
+F 0 "#PWR01" H 2350 950 50  0001 C CNN
+F 1 "+3.3V" H 2365 1273 50  0000 C CNN
+F 2 "" H 2350 1100 50  0001 C CNN
+F 3 "" H 2350 1100 50  0001 C CNN
+	1    2350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1100 2350 1300
+Connection ~ 2350 1300
+Wire Notes Line
+	600  2250 600  750 
+Text Notes 2400 700  2    50   ~ 0
+InputTo3.3RegulationCircuit\n
+$Comp
+L Device:C C_VCAP1
+U 1 1 610D0E32
+P 8500 4350
+F 0 "C_VCAP1" V 8248 4350 50  0000 C CNN
+F 1 "10uF" V 8339 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8538 4200 50  0001 C CNN
+F 3 "~" H 8500 4350 50  0001 C CNN
+	1    8500 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 610D22C4
+P 8750 4350
+F 0 "#PWR04" H 8750 4100 50  0001 C CNN
+F 1 "GND" V 8755 4222 50  0000 R CNN
+F 2 "" H 8750 4350 50  0001 C CNN
+F 3 "" H 8750 4350 50  0001 C CNN
+	1    8750 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 4350 7750 4350
+$Comp
+L Device:C C5
+U 1 1 610DDB09
+P 8500 3550
+F 0 "C5" V 8248 3550 50  0000 C CNN
+F 1 "0.1uF" V 8339 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8538 3400 50  0001 C CNN
+F 3 "~" H 8500 3550 50  0001 C CNN
+	1    8500 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 3550 8650 3650
+$Comp
+L Device:C C2
+U 1 1 610DEA03
+P 1800 4550
+F 0 "C2" H 1915 4596 50  0000 L CNN
+F 1 "0.1uF" H 1915 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1838 4400 50  0001 C CNN
+F 3 "~" H 1800 4550 50  0001 C CNN
+	1    1800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4400 1800 4250
+Wire Wire Line
+	1800 4250 2250 4250
+Wire Wire Line
+	1800 4750 1800 4700
+$Comp
+L power:GND #PWR03
+U 1 1 610E0973
+P 8750 3550
+F 0 "#PWR03" H 8750 3300 50  0001 C CNN
+F 1 "GND" V 8755 3422 50  0000 R CNN
+F 2 "" H 8750 3550 50  0001 C CNN
+F 3 "" H 8750 3550 50  0001 C CNN
+	1    8750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 610E1FB7
+P 1600 4250
+F 0 "#PWR02" H 1600 4000 50  0001 C CNN
+F 1 "GND" V 1605 4122 50  0000 R CNN
+F 2 "" H 1600 4250 50  0001 C CNN
+F 3 "" H 1600 4250 50  0001 C CNN
+	1    1600 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 4250 1600 4250
+Connection ~ 1800 4250
+Connection ~ 2250 4250
+Wire Wire Line
+	2250 4700 2250 4750
+Connection ~ 2250 4750
+Wire Wire Line
+	2250 4750 1800 4750
+Wire Wire Line
+	2250 4250 2700 4250
+Wire Wire Line
+	2250 4750 2700 4750
+Wire Wire Line
+	8650 3650 7750 3650
+Wire Wire Line
+	8350 3550 7750 3550
+Connection ~ 8650 3550
+Wire Wire Line
+	8650 3550 8750 3550
+$Comp
+L Device:C C4
+U 1 1 610F4BE6
+P 2700 4550
+F 0 "C4" H 2815 4596 50  0000 L CNN
+F 1 "0.1uF" H 2815 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2738 4400 50  0001 C CNN
+F 3 "~" H 2700 4550 50  0001 C CNN
+	1    2700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4400 2700 4250
+Connection ~ 2700 4250
+Wire Wire Line
+	2700 4250 3450 4250
+Wire Wire Line
+	2700 4700 2700 4750
+Connection ~ 2700 4750
+Wire Wire Line
+	2700 4750 3450 4750
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 611012B8
+P 1600 4750
+F 0 "#PWR0102" H 1600 4600 50  0001 C CNN
+F 1 "+3.3V" V 1615 4878 50  0000 L CNN
+F 2 "" H 1600 4750 50  0001 C CNN
+F 3 "" H 1600 4750 50  0001 C CNN
+	1    1600 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 4750 1800 4750
+Connection ~ 1800 4750
+Wire Notes Line
+	10000 2700 10000 5800
+Wire Notes Line
+	10000 5800 950  5800
+Wire Notes Line
+	950  5800 950  2700
+Wire Notes Line
+	950  2700 10000 2700
+Text Notes 6050 2700 2    50   ~ 0
+DSPIC33fj128MC802 Circuit 
+Wire Wire Line
+	8650 4350 8750 4350
+Wire Wire Line
+	7750 4450 8650 4450
+Wire Wire Line
+	8650 4450 8650 4350
+Connection ~ 8650 4350
+Wire Wire Line
+	2250 4400 2250 4250
+$Comp
+L Device:C C3
+U 1 1 610E3FC2
+P 2250 4550
+F 0 "C3" H 2365 4596 50  0000 L CNN
+F 1 "0.1uF" H 2365 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2288 4400 50  0001 C CNN
+F 3 "~" H 2250 4550 50  0001 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 611409D8
+P 3200 1600
+F 0 "D1" V 3284 1482 50  0000 R CNN
+F 1 "SML-H12P8TT86C" V 3193 1482 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 1600 50  0001 C CNN
+F 3 "~" H 3200 1600 50  0001 C CNN
+F 4 "755-SML-H12P8TT86C" V 3102 1482 50  0000 R CNN "Mouser"
+	1    3200 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61143FA1
+P 3000 1300
+F 0 "R1" V 2703 1300 50  0000 C CNN
+F 1 "3.3k" V 2794 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 1300 50  0001 C CNN
+F 3 "~" H 3000 1300 50  0001 C CNN
+F 4 "667-ERJ-UP3F3301V" V 2885 1300 50  0000 C CNN "Mouser"
+	1    3000 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 1300 3200 1300
+Wire Wire Line
+	3200 1300 3200 1450
+Wire Wire Line
+	3200 1850 3200 1750
+Wire Wire Line
+	2350 1300 2850 1300
+Wire Wire Line
+	2350 1850 3200 1850
+Connection ~ 2350 1850
+Wire Notes Line
+	4700 750  4700 2250
+Wire Notes Line
+	600  750  4700 750 
+Wire Notes Line
+	600  2250 4700 2250
 $EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ExoMotorBoard_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/ExoMotorBoard_v1-rescue.lib)(options "")(descr ""))
+)

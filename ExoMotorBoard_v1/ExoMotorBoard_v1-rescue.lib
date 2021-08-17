@@ -1,0 +1,153 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LG_R971-KN-1-dk_LED-Indication-Discrete
+#
+DEF LG_R971-KN-1-dk_LED-Indication-Discrete D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "LG_R971-KN-1-dk_LED-Indication-Discrete" -50 -150 60 H V C CNN
+F2 "digikey-footprints:0805" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 300 60 H I L CNN
+F4 "475-1410-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LG R971-KN-1" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED GREEN DIFFUSED 0805 SMD" 200 1000 60 H I L CNN "Description"
+F11 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MIC5219-3_3YM5-TR-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF MIC5219-3_3YM5-TR-dk_PMIC-Voltage-Regulators-Linear U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "MIC5219-3_3YM5-TR-dk_PMIC-Voltage-Regulators-Linear" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" 200 300 60 H I L CNN
+F4 "576-1281-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MIC5219-3.3YM5-TR" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579712" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MIC5219-3.3YM5-TR/576-1281-1-ND/771902" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 3.3V 500MA SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 200 -200 0 1 0 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 -100 100 R 50 50 1 1 I
+X BYP 4 300 -100 100 L 50 50 1 1 P
+X OUT 5 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# NCP1117ST50T3G-dk_PMIC-Voltage-Regulators-Linear
+#
+DEF NCP1117ST50T3G-dk_PMIC-Voltage-Regulators-Linear U 0 20 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "NCP1117ST50T3G-dk_PMIC-Voltage-Regulators-Linear" 0 250 60 H V C CNN
+F2 "digikey-footprints:SOT-223" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 300 60 H I L CNN
+F4 "NCP1117ST50T3GOSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NCP1117ST50T3G" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Voltage Regulators - Linear" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/NCP1117ST50T3G/NCP1117ST50T3GOSCT-ND/1967217" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC REG LINEAR 5V 1A SOT223" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 100 300 -300 0 1 0 f
+X ADJ/GND 1 0 -400 100 U 50 50 1 1 W
+X OUT 2 400 0 100 L 50 50 1 1 w
+X IN 3 -300 0 100 R 50 50 1 1 W
+X OUT 4 400 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# OSTTC022162-dk_Terminal-Blocks-Wire-to-Board
+#
+DEF OSTTC022162-dk_Terminal-Blocks-Wire-to-Board J 0 40 Y Y 1 F N
+F0 "J" -100 -50 50 H V R CNN
+F1 "OSTTC022162-dk_Terminal-Blocks-Wire-to-Board" 50 -200 50 H V C CNN
+F2 "digikey-footprints:Term_Block_1x2_P5.08MM" 200 200 60 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" 200 300 60 H I L CNN
+F4 "ED2609-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "OSTTC022162" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Terminal Blocks - Wire to Board" 200 700 60 H I L CNN "Family"
+F8 "http://www.on-shore.com/wp-content/uploads/OSTTCXX2162.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-shore-technology-inc/OSTTC022162/ED2609-ND/614558" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TERM BLK 2P SIDE ENT 5.08MM PCB" 200 1000 60 H I L CNN "Description"
+F11 "On Shore Technology Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 -100 25 1 1 0 N
+C 100 -100 25 1 1 0 N
+S -50 0 150 -150 1 1 0 f
+P 2 1 1 0 0 -75 0 -125 N
+P 2 1 1 0 25 -100 -25 -100 N
+P 2 1 1 0 75 -100 125 -100 N
+P 2 1 1 0 100 -75 100 -125 N
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UJ2-MIBH-4-SMT-TR-dk_USB-DVI-HDMI-Connectors
+#
+DEF UJ2-MIBH-4-SMT-TR-dk_USB-DVI-HDMI-Connectors J 0 40 Y Y 1 F N
+F0 "J" -175 625 60 H V C CNN
+F1 "UJ2-MIBH-4-SMT-TR-dk_USB-DVI-HDMI-Connectors" -250 -225 60 V V C CNN
+F2 "digikey-footprints:USB_Micro_B_Male_UJ2-MIBH-4-SMT-TR" 200 200 60 H I L CNN
+F3 "https://www.cui.com/product/resource/digikeypdf/uj2-mibh-4-smt.pdf" 200 300 60 H I L CNN
+F4 "102-4006-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "UJ2-MIBH-4-SMT-TR" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.cui.com/product/resource/digikeypdf/uj2-mibh-4-smt.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cui-inc/UJ2-MIBH-4-SMT-TR/102-4006-1-ND/6187928" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN RCPT USB2.0 MICRO B SMD R/A" 200 1000 60 H I L CNN "Description"
+F11 "CUI Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 35 -170 75 -230 0 1 0 F
+S 35 -130 75 -70 0 1 0 F
+S 35 -25 75 15 0 1 0 F
+S 35 25 75 -15 0 1 0 F
+S 35 130 75 70 0 1 0 F
+S 35 170 75 230 0 1 0 F
+P 2 0 1 0 149 482 149 -494 N
+P 10 0 1 0 19 -169 19 -129 74 -129 74 -169 19 -169 44 -149 19 -129 74 -129 74 -149 44 -149 N
+P 10 0 1 0 19 -69 19 -29 74 -29 74 -69 19 -69 44 -49 19 -29 74 -29 74 -49 44 -49 N
+P 10 0 1 0 19 69 19 29 74 29 74 69 19 69 44 49 19 29 74 29 74 49 44 49 N
+P 10 0 1 0 19 169 19 129 74 129 74 169 19 169 44 149 19 129 74 129 74 149 44 149 N
+P 13 0 1 0 75 -1 75 230 25 230 25 242 32 253 47 259 65 261 89 258 107 249 116 239 119 222 119 189 119 -5 N
+P 13 0 1 0 75 1 75 -230 25 -230 25 -242 32 -253 47 -259 65 -261 89 -258 107 -249 116 -239 119 -222 119 -189 119 5 N
+P 32 0 1 0 191 -494 151 -494 149 -494 149 -508 142 -521 135 -526 127 -529 18 -529 2 -528 -13 -524 -26 -517 -39 -508 -124 -427 -134 -409 -139 -385 -140 -340 -140 363 -139 371 -136 387 -130 401 -119 418 -69 466 -34 496 -13 507 3 512 24 515 121 515 131 512 141 506 149 493 149 481 191 481 N
+P 34 0 1 0 191 -452 191 -504 188 -529 180 -546 159 -564 141 -572 122 -575 -11 -573 -28 -569 -49 -559 -87 -529 -140 -478 -158 -459 -172 -439 -182 -417 -187 -384 -187 369 -181 397 -176 412 -166 432 -142 457 -57 535 -38 546 -22 552 3 556 22 558 129 558 148 552 166 541 175 532 185 518 190 506 191 490 191 -453 f
+X ~ 1 300 200 108 L 50 50 1 1 P
+X ~ 2 300 100 108 L 50 50 1 1 P
+X ~ 3 300 0 108 L 50 50 1 1 P
+X ~ 4 300 -100 108 L 50 50 1 1 P
+X ~ 5 300 -200 108 L 50 50 1 1 P
+X ~ SH -100 -600 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
